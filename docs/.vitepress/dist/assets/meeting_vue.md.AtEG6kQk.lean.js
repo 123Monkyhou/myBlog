@@ -1,0 +1,1 @@
+import{_ as e,c as n,o as a,a1 as t}from"./chunks/framework.D13AgEzC.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"meeting/vue.md","filePath":"meeting/vue.md"}'),o={name:"meeting/vue.md"},d=t("",12),r=[d];function i(u,c,p,s,f,h){return a(),n("div",null,r)}const m=e(o,[["render",i]]);export{l as __pageData,m as default};
