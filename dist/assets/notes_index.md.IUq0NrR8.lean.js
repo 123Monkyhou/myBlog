@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t,a1 as a}from"./chunks/framework.D13AgEzC.js";const u=JSON.parse('{"title":"官网导航","description":"","frontmatter":{},"headers":[],"relativePath":"notes/index.md","filePath":"notes/index.md"}'),n={name:"notes/index.md"},i=a("",2),l=[i];function o(s,c,p,_,h,d){return t(),r("div",null,l)}const m=e(n,[["render",o]]);export{u as __pageData,m as default};
