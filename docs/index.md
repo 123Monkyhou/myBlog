@@ -7,7 +7,7 @@ hero:
   tagline: 帅气又迷人的小侯
   image:
     src: /public/monky.png
-    alt: Kitty
+    alt: monky
   actions:
     - theme: brand
       text: 快来快来
