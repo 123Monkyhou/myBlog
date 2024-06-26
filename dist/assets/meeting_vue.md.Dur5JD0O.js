@@ -1,4 +1,4 @@
-import{_ as e,c as n,o as a,a1 as t}from"./chunks/framework.D13AgEzC.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"meeting/vue.md","filePath":"meeting/vue.md"}'),o={name:"meeting/vue.md"},d=t(`<h4 id="vue2和3的区别" tabindex="-1">Vue2和3的区别 <a class="header-anchor" href="#vue2和3的区别" aria-label="Permalink to &quot;Vue2和3的区别&quot;">​</a></h4><p>1.optionsAPI和compisitionApi: vue2通过定义data,methods等组织代码，vue3把逻辑放在一个函数里。 逻辑复用，vue2使用mixin()实现逻辑复用，compisition 2.Vue3的diff增加了静态标记，被静态标记的节点不会继续diff Vue3静态提升，静态节点会被提取出来，不会重复渲染。 事件监听缓存 SSR优化</p><h4 id="如何实现一个自定义指令" tabindex="-1">如何实现一个自定义指令 <a class="header-anchor" href="#如何实现一个自定义指令" aria-label="Permalink to &quot;如何实现一个自定义指令&quot;">​</a></h4><pre><code>                vue2:
+import{_ as e,c as n,o as a,a1 as t}from"./chunks/framework.D13AgEzC.js";const v=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"meeting/vue.md","filePath":"meeting/vue.md"}'),o={name:"meeting/vue.md"},d=t(`<h4 id="vue2和3的区别" tabindex="-1">Vue2和3的区别 <a class="header-anchor" href="#vue2和3的区别" aria-label="Permalink to &quot;Vue2和3的区别&quot;">​</a></h4><p>1.optionsAPI和compisitionApi: vue2通过定义data,methods等组织代码，vue3把逻辑放在一个函数里。 逻辑复用，vue2使用mixin()实现逻辑复用，compisition 2.Vue3的diff增加了静态标记，被静态标记的节点不会继续diff Vue3静态提升，静态节点会被提取出来，不会重复渲染。 事件监听缓存 SSR优化</p><h4 id="如何实现一个自定义指令" tabindex="-1">如何实现一个自定义指令 <a class="header-anchor" href="#如何实现一个自定义指令" aria-label="Permalink to &quot;如何实现一个自定义指令&quot;">​</a></h4><pre><code>                vue2:
                     bind --- 当指令绑定在元素时触发
                     insert --- 当对应元素被插入到Dom时触发
                     update --- 当元素更新时触发
@@ -43,4 +43,4 @@ import{_ as e,c as n,o as a,a1 as t}from"./chunks/framework.D13AgEzC.js";const l
                     贪心（n）：
                     二分法(logn)：
                     动态规划：一般用来解决最优解问题。 回溯:一般用来
-</code></pre>`,12),r=[d];function i(u,c,p,s,f,h){return a(),n("div",null,r)}const m=e(o,[["render",i]]);export{l as __pageData,m as default};
+</code></pre><h3 id="v-model的原理" tabindex="-1">v-model的原理： <a class="header-anchor" href="#v-model的原理" aria-label="Permalink to &quot;v-model的原理：&quot;">​</a></h3>`,13),r=[d];function i(u,c,p,s,l,f){return a(),n("div",null,r)}const m=e(o,[["render",i]]);export{v as __pageData,m as default};

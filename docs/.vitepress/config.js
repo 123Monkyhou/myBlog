@@ -1,3 +1,4 @@
+
 export default {
     title: '老马烧鹅铺', //站点标题
     description: '一个vue3组件库',//mate标签description，多用于搜索引擎抓取摘要
@@ -35,6 +36,33 @@ export default {
                 }
             ],
             "/notes/": [
+                {
+                    text: "设计模式",
+                    collapsible: true,
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "单例模式",
+                            link: "/notes/desiginPattern/单例模式",
+                        },
+                        {
+                            text: "工厂模式",
+                            link: "/notes/desiginPattern/工厂模式",
+                        },
+                        {
+                            text: "策略模式",
+                            link: "/notes/desiginPattern/策略模式",
+                        },
+                        {
+                            text: "装饰器模式",
+                            link: "/notes/desiginPattern/装饰器模式",
+                        },
+                        {
+                            text: "vue中用到的设计模式",
+                            link: "/notes/desiginPattern/vue中用到的设计模式",
+                        },
+                    ]
+                },
                 {
                     text: "uniapp",
                     collapsible: true,
